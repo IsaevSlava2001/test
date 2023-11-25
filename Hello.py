@@ -16,7 +16,7 @@ import streamlit as st
 from streamlit.logger import get_logger
 from io import StringIO
 import pandas as pd
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import csv
 import numpy as np
 
