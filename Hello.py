@@ -16,7 +16,9 @@ import streamlit as st
 from streamlit.logger import get_logger
 from io import StringIO
 import pandas as pd
+import matplotlib
 from matplotlib import pyplot as plt
+matplotlib.use('Agg')
 import csv
 import numpy as np
 
